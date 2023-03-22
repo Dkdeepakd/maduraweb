@@ -1,0 +1,49 @@
+body
+{
+    display: flex;
+    justify-content:center;
+    background-image: url("https://wallpapercave.com/wp/wp7181353.jpg");
+    background-repeat: no-repeat;
+}
+
+.image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 150px;
+}
+
+.image img
+{
+    border : 2.5px solid black;
+    margin: 5px;
+    width: 200px;
+    height: 150px;
+    
+}
+
+.image img:hover
+{
+    cursor: pointer ;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.head h1
+{
+    font-size: 50px;  
+}
+
+.head a
+{
+    color: white;
+}
+
+.head a:hover
+{
+    color: gray;
+}
+
+
+
